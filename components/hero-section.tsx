@@ -30,7 +30,7 @@ export function HeroSection() {
           
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 text-balance leading-relaxed">
-            An intelligent decision-support system using Random Forest MoE and Weighted Multi-Criteria Analysis to manage technical debt in Java projects.
+            An intelligent decision-support system using Random Forest MoE and Weighted Multi-Criteria Analysis for Java projects.
           </p>
           
           {/* CTA Buttons */}
