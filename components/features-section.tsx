@@ -20,7 +20,12 @@ const features = [
 
 export function FeaturesSection() {
   return (
-    <section className="relative py-24 md:py-32">
+    <section className="relative py-24 md:py-32 overflow-hidden">
+      {/* Background decorative elements */}
+      <div className="absolute top-10 right-10 w-40 h-40 border border-primary/10 rounded-2xl rotate-12" />
+      <div className="absolute bottom-20 left-10 w-32 h-32 bg-primary/5 rounded-xl -rotate-6" />
+      <div className="absolute top-1/2 left-1/3 w-24 h-24 border border-primary/5 rounded-lg rotate-45" />
+      
       <div className="container mx-auto px-4">
         {/* Section header */}
         <div className="text-center mb-16">

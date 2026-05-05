@@ -29,6 +29,11 @@ export function TechnicalSection() {
       {/* Background decoration */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent" />
       
+      {/* Decorative rectangles */}
+      <div className="absolute top-20 right-1/4 w-36 h-36 border border-primary/10 rounded-2xl -rotate-12" />
+      <div className="absolute bottom-10 left-20 w-28 h-28 bg-primary/5 rounded-xl rotate-6" />
+      <div className="absolute top-1/3 right-10 w-20 h-20 border border-primary/5 rounded-lg rotate-45" />
+      
       <div className="relative container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left content */}

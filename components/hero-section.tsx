@@ -10,6 +10,11 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/20 via-background to-background" />
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-primary/5 blur-[120px] rounded-full" />
       
+      {/* Decorative rectangles */}
+      <div className="absolute top-20 left-10 w-32 h-32 border border-primary/20 rounded-lg rotate-12" />
+      <div className="absolute top-40 right-20 w-24 h-24 border border-primary/10 rounded-lg -rotate-6" />
+      <div className="absolute bottom-20 left-1/4 w-20 h-20 bg-primary/5 rounded-lg rotate-45" />
+      
       <div className="relative container mx-auto px-4 py-24 md:py-32 lg:py-40">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
           {/* Badge */}
@@ -21,12 +26,11 @@ export function HeroSection() {
           {/* Main title */}
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 text-balance">
             <span className="text-primary font-mono">BACKD00R</span>
-            <span className="text-foreground">: Prioritized Java Refactoring</span>
           </h1>
           
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 text-balance leading-relaxed">
-            An intelligent decision-support system using Random Forest MoE and Weighted Multi-Criteria Analysis to manage technical debt.
+            An intelligent decision-support system using Random Forest MoE and Weighted Multi-Criteria Analysis to manage technical debt in Java projects.
           </p>
           
           {/* CTA Buttons */}
@@ -43,25 +47,6 @@ export function HeroSection() {
                 Get IntelliJ IDEA
               </a>
             </Button>
-          </div>
-          
-          {/* Code snippet decoration */}
-          <div className="mt-16 w-full max-w-2xl">
-            <div className="rounded-lg border border-border/50 bg-card/30 backdrop-blur-md p-4 font-mono text-sm text-left overflow-hidden">
-              <div className="flex items-center gap-2 mb-3 text-muted-foreground">
-                <div className="w-3 h-3 rounded-full bg-destructive/60" />
-                <div className="w-3 h-3 rounded-full bg-yellow-500/60" />
-                <div className="w-3 h-3 rounded-full bg-primary/60" />
-                <span className="ml-2 text-xs">BACKD00R Analysis</span>
-              </div>
-              <div className="space-y-1 text-muted-foreground">
-                <p><span className="text-primary">$</span> backd00r analyze --project ./src</p>
-                <p className="text-foreground/80">Detecting code smells...</p>
-                <p className="text-primary">Found: 3 God Classes, 7 Feature Envy, 12 Long Methods</p>
-                <p className="text-foreground/80">Prioritizing refactoring candidates...</p>
-                <p className="text-primary">Sequencing complete. Ready for review.</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

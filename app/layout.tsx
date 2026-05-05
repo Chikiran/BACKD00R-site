@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'BACKD00R - Prioritized Java Refactoring Plugin',
+  title: 'BACKD00R',
   description: 'An intelligent decision-support system using Random Forest MoE and Weighted Multi-Criteria Analysis to manage technical debt in Java projects.',
   icons: {
     icon: [
