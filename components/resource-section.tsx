@@ -2,8 +2,7 @@ import { Button } from "@/components/ui/button"
 import { Download, ExternalLink, CheckCircle2 } from "lucide-react"
 
 const prerequisites = [
-  "Java 8 or higher installed",
-  "IntelliJ IDEA 2021.1 or later",
+  "IntelliJ IDEA 2025.3 or later",
   "Minimum 4GB RAM recommended",
 ]
 
@@ -59,7 +58,7 @@ export function ResourceSection() {
               
               <div className="space-y-3">
                 <Button className="w-full gap-2 justify-center" size="lg" asChild>
-                  <a href="/backd00r-1.1.0-SNAPSHOT.zip" download>
+                  <a href="/backd00r-1.0-SNAPSHOT.zip" download>
                     <Download className="w-5 h-5" />
                     Download BACKD00R Plugin
                   </a>

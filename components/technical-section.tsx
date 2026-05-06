@@ -63,60 +63,6 @@ export function TechnicalSection() {
               ))}
             </div>
           </div>
-          
-          {/* Right content - Architecture diagram */}
-          <div className="relative">
-            <div className="rounded-xl border border-border/50 bg-card/30 backdrop-blur-md p-6">
-              <h3 className="font-mono text-sm text-muted-foreground mb-4">MoE Architecture Flow</h3>
-              
-              <div className="space-y-4">
-                {/* Input layer */}
-                <div className="flex items-center gap-4">
-                  <div className="w-full p-3 rounded-lg bg-secondary/50 border border-border/50 text-center">
-                    <span className="text-sm font-mono">Java Source Code</span>
-                  </div>
-                </div>
-                
-                {/* Arrow */}
-                <div className="flex justify-center">
-                  <div className="w-0.5 h-6 bg-primary/50" />
-                </div>
-                
-                {/* Expert classifiers */}
-                <div className="grid grid-cols-3 gap-3">
-                  <div className="p-3 rounded-lg bg-primary/10 border border-primary/30 text-center">
-                    <span className="text-xs font-mono text-primary">God Class Expert</span>
-                  </div>
-                  <div className="p-3 rounded-lg bg-primary/10 border border-primary/30 text-center">
-                    <span className="text-xs font-mono text-primary">Feature Envy Expert</span>
-                  </div>
-                  <div className="p-3 rounded-lg bg-primary/10 border border-primary/30 text-center">
-                    <span className="text-xs font-mono text-primary">Long Method Expert</span>
-                  </div>
-                </div>
-                
-                {/* Arrow */}
-                <div className="flex justify-center">
-                  <div className="w-0.5 h-6 bg-primary/50" />
-                </div>
-                
-                {/* Gating network */}
-                <div className="p-3 rounded-lg bg-secondary/50 border border-border/50 text-center">
-                  <span className="text-sm font-mono">Random Forest Gating Network</span>
-                </div>
-                
-                {/* Arrow */}
-                <div className="flex justify-center">
-                  <div className="w-0.5 h-6 bg-primary/50" />
-                </div>
-                
-                {/* Output */}
-                <div className="p-3 rounded-lg bg-primary/20 border border-primary/40 text-center">
-                  <span className="text-sm font-mono text-primary">Prioritized Refactoring Queue</span>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

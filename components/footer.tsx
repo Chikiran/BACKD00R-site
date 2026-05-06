@@ -14,9 +14,6 @@ export function Footer() {
           {/* Attribution */}
           <div className="text-center md:text-right">
             <p className="text-sm text-muted-foreground">
-              Developed at <span className="text-foreground">FEU Institute of Technology</span>
-            </p>
-            <p className="text-sm text-muted-foreground">
               by Cando, Herrera, Idago, and Zapanta (2026)
             </p>
           </div>

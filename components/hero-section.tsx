@@ -36,7 +36,7 @@ export function HeroSection() {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4">
             <Button size="lg" className="gap-2 font-medium" asChild>
-              <a href="/backd00r-1.1.0-SNAPSHOT.zip" download>
+              <a href="/backd00r-1.0-SNAPSHOT.zip" download>
                 <Download className="w-5 h-5" />
                 Download Plugin (.zip)
               </a>
