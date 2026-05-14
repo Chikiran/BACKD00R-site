@@ -58,7 +58,7 @@ export function ResourceSection() {
               
               <div className="space-y-3">
                 <Button className="w-full gap-2 justify-center" size="lg" asChild>
-                  <a href="/backd00r-1.0-SNAPSHOT.zip" download>
+                  <a href="https://github.com/Chikiran/BACKD00R-site/releases/latest/download/backd00r-1.0-SNAPSHOT.zip" download>
                     <Download className="w-5 h-5" />
                     Download BACKD00R Plugin
                   </a>
